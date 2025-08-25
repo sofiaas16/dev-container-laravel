@@ -44,7 +44,7 @@
       }
     }
   },
-  "forwardPorts": [8000, 8025, 6379, 3306],
+  "forwardPorts": [8001, 8025, 6379, 3307],
   "portsAttributes": {
     "8000": { "label": "Laravel" },
     "8025": { "label": "Mailpit UI" },

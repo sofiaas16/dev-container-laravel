@@ -11,7 +11,7 @@ services:
     environment:
       - TZ=UTC
     ports:
-      - "8000:8000"
+      - "8001:8000"
     depends_on:
       - db
       - redis
@@ -29,7 +29,7 @@ services:
     volumes:
       - dbdata-laravel11:/var/lib/mysql
     ports:
-      - "3306:3306"
+      - "3307:3306"
 
   redis:
     image: redis:7
